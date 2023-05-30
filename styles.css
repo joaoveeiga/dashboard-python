@@ -1,0 +1,47 @@
+body{
+    background-image: url('./img/sky_background.jpg');
+}
+
+h1{
+    font-size: 3.5rem;
+    color: #1768cb;
+}
+
+label, input{
+    font-size: 1.5rem;
+}
+
+#firstLabel{
+    color: aliceblue;
+}
+
+#secondLabel{
+    color: aliceblue;
+
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 50%; 
+  }
+
+.date-field {
+    display: inline-block; 
+    margin-right: 10px; 
+
+  }
+
+.submit-button {
+    background-color: #1768cb; 
+    color: white; 
+    padding: 12px 20px; 
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 4px;
+  }
+
+  .submit-button:hover {
+    background-color: #063e83; 
+  }
