@@ -20,8 +20,11 @@
 
 async function executarPython() {
   try {
+    const startDate = document.getElementById("startDate").value;
+    const endDate = document.getElementById("endDate").value;
     const response = await fetch("http://localhost:5000/executar-python", {
       method: "POST",
+      body: JSON.stringify({ startDate, endDate }),
     });
 
     if (!response.ok) {
