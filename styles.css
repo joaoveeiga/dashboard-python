@@ -1,56 +1,39 @@
-div {
-  display: flex;
+.card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-}
-.header>h1, h2, h4 {
-  padding-left: 2vmin;
-}
-
-.row {
-  flex-direction: row;
+.card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
-.column{
-  flex-direction: column;
+.card-content {
+  padding: 20px;
 }
 
-input[type="date"] {
-  padding: 5px;
-  border-radius: 8px;
-  margin: 3px;
-  border: 1px solid #9E9E9E;
+.card-title {
+  margin-top: 0;
 }
 
-
-input[type="date"]::before {
-  content: attr(placeholder);
-  color: gray;
+.card-text {
+  margin-bottom: 10px;
 }
 
-input[type="date"]:focus::before,
-input[type="date"]:valid::before {
-  content: "";
+.card-link {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #337ab7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
 }
-.header {
-  background-color: #ADD8E6;
-  margin-bottom: 2vmin;
+
+.card-link:hover {
+  background-color: #286090;
 }
-
-
-/* 
-Cinza claro: #F5F5F5
-Cinza médio: #9E9E9E
-Cinza escuro: #424242
-Preto: #000000
-Branco: #FFFFFF
-
-Rosa claro: #FFB6C1
-Azul claro: #ADD8E6
-Verde claro: #90EE90
-Amarelo claro: #FFFFE0
-Lilás claro: #E6E6FA
-Pêssego claro: #FFDAB9 */

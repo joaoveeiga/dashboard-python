@@ -1,0 +1,31 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.header {
+    background-color: #ADD8E6;
+    margin-bottom: 2vmin;
+    display: flex;
+  }
+
+  .header a:hover {
+    color: #175aa2;
+  }
+  
+  .header>h1, h2, h4 {
+    padding-left: 2vmin;
+  }
+  
+  .row {
+    flex-direction: row;
+  }
+  
+  .column{
+    flex-direction: column;
+  }
+
+  a{
+    color: black;
+    
+  }

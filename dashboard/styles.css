@@ -1,0 +1,17 @@
+input[type="date"] {
+    padding: 5px;
+    border-radius: 8px;
+    margin: 3px;
+    border: 1px solid #9E9E9E;
+  }
+  
+  
+  input[type="date"]::before {
+    content: attr(placeholder);
+    color: gray;
+  }
+  
+  input[type="date"]:focus::before,
+  input[type="date"]:valid::before {
+    content: "";
+  }
