@@ -23,25 +23,89 @@
       <h4><a href="/dashboard/">Dashboard</a></h4>
       <h4><a href="/sobre/">Sobre</a></h4>
     </div>
-      
-    <div class="card">
-      <div class="card-content">
-        <h3 class="card-title">Base de Dados Utilizada</h3>
-        <p class="card-text">NASA  - DONKI (Database Of Notifications, Knowledge, Information) /Solar Flare (FLR).</p>
-        <a href="https://api.nasa.gov/" target="_blank" class="card-link">Nasa</a>
-      </div>
-    </div>
+      <main>
+        <div class="card">
+          <div class="card-content">
+            <h3 class="card-title">Por que da escolha do tema?</h3>
+            <p class="card-text">Esperávamos que por se tratar de uma empresa de grande porte, haveria poucos problemas em relação aos dados apresentados. Além disso, o tema é de interesse de todos os representantes do grupo. 
+              Vamos identificar a classificação a qual mais se repete, localização das erupções solares onde mais ocorrem e qual a região do sol é mais ativa, bem como inferir tempo de duração e estimativa dos picos dessas erupções solares.</p>
+            
+              <div class="card-content" style="padding: 0px; padding-top: 30px;">
+                <h3 class="card-title">Base de Dados Utilizada</h3>
+                <p class="card-text">NASA  - DONKI (Database Of Notifications, Knowledge, Information) /Solar Flare (FLR).</p>
+                <a href="https://api.nasa.gov/" target="_blank" class="card-link" >Nasa</a>
+              </div>
+          </div>
+        </div>
 
-    <div class="card">
-      <div class="card-content">
-        <h3 class="card-title">Por que da escolha do tema?</h3>
-        <p class="card-text">Esperávamos que por se tratar de uma empresa de grande porte, haveria poucos problemas em relação aos dados apresentados. Além disso, o tema é de interesse de todos os representantes do grupo. 
-          Vamos identificar a classificação a qual mais se repete, localização das erupções solares onde mais ocorrem e qual a região do sol é mais ativa, bem como inferir tempo de duração e estimativa dos picos dessas erupções solares.</p>
-        
-      </div>
-    </div>
 
-      
+    <table>
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Descrição</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>flrID</td>
+          <td>É a identificação da erupção solar</td>
+        </tr>
+        <tr>
+          <td>instruments</td>
+          <td>Instrumento utilizado para realizar a captura da imagem</td>
+        </tr>
+        <tr>
+          <td>beginTime</td>
+          <td>Tempo de início da erupção solar</td>
+        </tr>
+        <tr>
+          <td>peakTime</td>
+          <td>Tempo de pico da erupção solar</td>
+        </tr>
+        <tr>
+          <td>endTime</td>
+          <td>Tempo de término da erupção solar</td>
+        </tr>
+        <tr>
+          <td>classType</td>
+          <td>Classificação da erupção solar</td>
+        </tr>
+        <tr>
+          <td>sourceLocation</td>
+          <td>Localização da erupção solar</td>
+        </tr>
+        <tr>
+          <td>activeRegionNum</td>
+          <td>Número da região em que a erupção solar foi catalogada</td>
+        </tr>
+        <tr>
+          <td>linkedEvents</td>
+          <td>Atividades relacionadas à erupção solar catalogada</td>
+        </tr>
+        <tr>
+          <td>link</td>
+          <td>Link que leva à página da NASA com um front-end para exibir o JSON de forma mais legível</td>
+        </tr>
+        <tr>
+          <td>beginToPeakTime</td>
+          <td>Tempo que levou do início até o pico da erupção solar</td>
+        </tr>
+        <tr>
+          <td>peakToEndTime</td>
+          <td>Tempo que levou do pico até o fim da onda solar</td>
+        </tr>
+        <tr>
+          <td>sameDay</td>
+          <td>Se a erupção solar começou e terminou no mesmo dia terráqueo</td>
+        </tr>
+      </tbody>
+    </table>
+    
+
+    
+
+  </main>
 
       
       <script src="script.js"></script>
