@@ -1,47 +1,56 @@
-body{
-    background-image: url('./img/sky_background.jpg');
+div {
+  display: flex;
 }
 
-h1{
-    font-size: 3.5rem;
-    color: #1768cb;
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+.header>h1, h2, h4 {
+  padding-left: 2vmin;
 }
 
-label, input{
-    font-size: 1.5rem;
+.row {
+  flex-direction: row;
 }
 
-#firstLabel{
-    color: aliceblue;
+.column{
+  flex-direction: column;
 }
 
-#secondLabel{
-    color: aliceblue;
-
+input[type="date"] {
+  padding: 5px;
+  border-radius: 8px;
+  margin: 3px;
+  border: 1px solid #9E9E9E;
 }
 
-.container {
-    margin-left: auto;
-    margin-right: auto; 
-    width: 50%; 
-  }
 
-.date-field {
-    display: inline-block; 
-    margin-right: 10px; 
+input[type="date"]::before {
+  content: attr(placeholder);
+  color: gray;
+}
 
-  }
+input[type="date"]:focus::before,
+input[type="date"]:valid::before {
+  content: "";
+}
+.header {
+  background-color: #ADD8E6;
+  margin-bottom: 2vmin;
+}
 
-.submit-button {
-    background-color: #1768cb; 
-    color: white; 
-    padding: 12px 20px; 
-    font-size: 16px; 
-    border: none; 
-    cursor: pointer; 
-    border-radius: 4px;
-  }
 
-  .submit-button:hover {
-    background-color: #063e83; 
-  }
+/* 
+Cinza claro: #F5F5F5
+Cinza médio: #9E9E9E
+Cinza escuro: #424242
+Preto: #000000
+Branco: #FFFFFF
+
+Rosa claro: #FFB6C1
+Azul claro: #ADD8E6
+Verde claro: #90EE90
+Amarelo claro: #FFFFE0
+Lilás claro: #E6E6FA
+Pêssego claro: #FFDAB9 */
