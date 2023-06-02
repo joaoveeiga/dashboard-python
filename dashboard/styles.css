@@ -15,3 +15,7 @@ input[type="date"] {
   input[type="date"]:valid::before {
     content: "";
   }
+
+  .graficos{
+    width: 33%;
+  }
