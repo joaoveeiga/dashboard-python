@@ -4,9 +4,10 @@ body {
 }
 
 .header {
-    background-color: #ADD8E6;
+    background-color: #49b8dd;
     margin-bottom: 2vmin;
     display: flex;
+    align-items: center;
   }
 
   .header a:hover {
@@ -15,6 +16,15 @@ body {
   
   .header>h1, h2, h4 {
     padding-left: 2vmin;
+  }
+
+  .containerH4{
+    display: flex;
+    margin-left: 30%;
+  }
+
+  h4{
+    font-size: 17px;
   }
   
   .row {
