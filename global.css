@@ -39,3 +39,10 @@ body {
     color: black;
     
   }
+
+  .github-button {
+    position: fixed;
+    right: 19px;
+    top: 17px;
+    width: 45px;
+  } 
