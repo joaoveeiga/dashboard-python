@@ -20,7 +20,7 @@ body {
 
   .containerH4{
     display: flex;
-    margin-left: 30%;
+    margin-left: 33%;
   }
 
   h4{
@@ -46,3 +46,9 @@ body {
     top: 17px;
     width: 45px;
   } 
+
+  @media (max-width: 1000px){
+    .containerH4{
+      margin-left: 20%;
+    }
+  }
