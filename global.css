@@ -41,7 +41,7 @@ body {
   }
 
   .github-button {
-    position: fixed;
+    position: absolute;
     right: 19px;
     top: 17px;
     width: 45px;
